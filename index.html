@@ -229,7 +229,7 @@
   const barsEl = document.getElementById("bars");
   const statusEl = document.getElementById("status");
 
-  document.querySelectorAll("button[data-note]").forEach((btn) => {
+  document.querySelectorAll("span[data-note]").forEach((btn) => {
     btn.onclick = () => {
       const d = DUR[btn.dataset.note];
 
